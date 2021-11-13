@@ -1,4 +1,4 @@
-# Python Codes of Constructing New Company-Level Database of Meaningful Patent Transfers with Company Permnos
+# Construct New Company-Level Database of Meaningful Patent Transfers with Company Permnos via Textual Analysis
 
 <details>
 <summary><strong><em>Table of Contents</em></strong></summary>
