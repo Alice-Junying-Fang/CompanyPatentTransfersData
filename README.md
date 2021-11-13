@@ -1,15 +1,14 @@
-# Python Codes of Developing New Company-Level Database of Meaningful Patent Transfers with Company Permnos
+# Python Codes of Constructing New Company-Level Database of Meaningful Patent Transfers with Company Permnos
 
 <details>
 <summary><strong><em>Table of Contents</em></strong></summary>
 
 - [Overview](#overview)
-  - [Parse XML Format of USPTO Patent Transfers](#Parse XML Format of USPTO Patent Transfers)
-  - [Determine Not Meaningful Patent Transfers](#Determine Not Meaningful Patent Transfers)
-  - [Preprocess Company Names](#Preprocess Company Names)
-  - [Texutal Analysis to Improve the Accuracy of Fuzzy Matching Company Names](#Texutal Analysis to Improve the Accuracy of Fuzzy Matching Company Names)
-  - [Develop Parallelizations to Speed Up Codes](#Develop Parallelizations to Speed Up Codes)
-  
+  - [Parse XML Format of USPTO Patent Transfers](#parse-xml-format-of-uspto-patent-transfers)
+  - [Determine Not Meaningful Patent Transfers](#determine-not-meaningful-patent-transfers)
+  - [Preprocess Company Names](#preprocess-company-names)
+  - [Texutal Analysis to Improve the Accuracy of Fuzzy Matching Company Names](#texutal-analysis-to-improve-the-accuracy-of-fuzzy-matching-company-names)
+  - [Develop Parallelizations to Speed Up Codes](#develop-parallelizations-to-speed-up-codes)
 - [Acknowledgement](#acknowledgement)
 
 </details>
