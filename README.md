@@ -1,14 +1,16 @@
-# This repository contains python codes of developing new Company-Level Database of Meaningful Patent Transfers with Company Permnos
+# Python Codes of Developing New Company-Level Database of Meaningful Patent Transfers with Company Permnos
 
 <details>
 <summary><strong><em>Table of Contents</em></strong></summary>
 
 - [Overview](#overview)
-  - [New Data Source](#new-data-source)
-  - [Methodology](#methodology)
-- [Results](#results)
-  - [TFP Growth](#tfp-growth)
-  - [GDP Growth](#gdp-growth)
+  - [Parse XML Format of USPTO Patent Transfers](#Parse XML Format of USPTO Patent Transfers)
+  - [Determine Not Meaningful Patent Transfers](#Determine Not Meaningful Patent Transfers)
+  - [Preprocess Company Names](#Preprocess Company Names)
+  - [Texutal Analysis to Improve the Accuracy of Fuzzy Matching Company Names](#Texutal Analysis to Improve the Accuracy of Fuzzy Matching Company Names)
+  - [Develop Parallelizations to Speed Up Codes](#Develop Parallelizations to Speed Up Codes)
+  
+- [Acknowledgement](#acknowledgement)
 
 </details>
 
@@ -19,8 +21,8 @@ XML format of raw USPTO patent transfers data at the patent property level is pa
 
 Note that multiple patent transfers of one patent property may be updated at the same date. Thus, the date + patent id cannot uniquely identify each patent transfer. 
 
-## Identify and Determine Not Meaningful Patent Transfers 
-Textual Analysis and Regular Expressions are developed in Python to identify and determine not meaningful patent transfers.
+## Determine Not Meaningful Patent Transfers 
+Textual Analysis and Regular Expressions are developed in Python to determine not meaningful patent transfers.
 
 Not Meaningful Patent Transfers:
 * Transfers from inventors to their companies: Develop Textual analysis and regular expressions to identify whether the name is company name or person name
