@@ -18,7 +18,7 @@
 ## Parse XML Format of USPTO Patent Transfers
 The XML format of raw USPTO patent transfers data at the patent property level is parsed into the CSV format of patent transfers data at the patent transfer level. 
 
-Note that multiple patent transfers of one patent property may be updated at the same date. Thus, the date + patent id cannot uniquely identify each patent transfer. 
+Note that multiple patent transfers of one patent property may be updated at the same date. Thus, the updated date + patent id cannot uniquely identify each patent transfer. 
 
 ## Determine Not Meaningful Patent Transfers 
 Textual Analysis and Natural Language Processing are developed in Python to determine not meaningful patent transfers.
