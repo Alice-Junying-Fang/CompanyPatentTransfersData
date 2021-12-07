@@ -1,4 +1,4 @@
-# Construct New Company-Level Database of Meaningful Patent Transfers with Company Permnos via Textual Analysis and NLP
+# New Company-Level Database of Meaningful Patent Transfers with Company Permnos 
 
 <details>
 <summary><strong><em>Table of Contents</em></strong></summary>
@@ -41,4 +41,4 @@ Company names are preprocessed and standardized to improve the number of exact m
 All codes are speeded up by parallelizing operations of Pandas DataFrame and Numpy Arrays.
 
 # Acknowledgement
-USPTO Patents Assignments Database https://www.google.com/googlebooks/uspto-patents-assignments.html
+USPTO Patent Assignments Database https://www.google.com/googlebooks/uspto-patents-assignments.html
